@@ -264,7 +264,6 @@ span{
 }
 
 .news-section{
-    height: 100vh;
     width: 100vw;
     background-color: #122453;
     
@@ -313,7 +312,6 @@ span{
 }
 
 .research{
-    height: 150vh;
     width: 100vw;
     background-image: url(./img/reasearch-bg.jpg);
     background-attachment: fixed;
@@ -334,6 +332,8 @@ span{
 }
 
 .research img{
+    width: 600px;
+    height: 400px;
     margin: 5%;
     transition: all 0.5s ease;
 }
@@ -492,7 +492,7 @@ span{
         margin: auto;
     }
     .research img{
-        width: 80%;
+        width: 105%;
         padding: 5%;
         margin: auto!important;
     }
@@ -500,13 +500,21 @@ span{
     .research-card2{
         margin: 0!important;
         width: 80%;
-        margin: auto!important;
-    }
-    .footer{
-        min-height: 100vh;
+        margin: 2% auto!important;
     }
     .line-col{
         display: none;
+    }
+    .footer{
+        height: 100vh!important;
+        padding: 5%;
+    }
+    .footer-col1{
+        flex-direction: row;
+    }
+    .footer p,
+    .footer li{
+        margin: 2%;
     }
   }
 
