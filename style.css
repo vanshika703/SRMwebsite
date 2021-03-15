@@ -115,6 +115,7 @@ nav{
     padding: 12px 28px;
     transition: all 0.3s ease;
     cursor: pointer;
+    width: 140px;
 }
 
 .btn-white:hover,
@@ -487,6 +488,7 @@ span{
     }
     .btn-blue{
         margin-left: 0;
+        margin-top: 5%;
     }
     .stats img{
         width: 120px;
