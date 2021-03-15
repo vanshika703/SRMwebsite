@@ -464,5 +464,21 @@ span{
     background-color: grey;
 }
 
+@media only screen and (max-width: 600px) {
+    section,
+    .container-fluid,
+    .container{
+      height: auto;
+    }
+    body{
+        margin: 0!important;
+        padding: 0!important;
+        
+    }
+    img{
+        width: 120px!important;
+        height: 120px!important;
+    }
+  }
 
 
