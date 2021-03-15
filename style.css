@@ -492,14 +492,14 @@ span{
         margin: auto;
     }
     .research img{
-        width: 105%;
+        width: 80%%;
         padding: 5%;
         margin: auto!important;
     }
     .research-card1,
     .research-card2{
         margin: 0!important;
-        width: 80%;
+        width: 20rem;
         margin: 2% auto!important;
     }
     .line-col{
