@@ -494,13 +494,13 @@ span{
     .research img{
         width: 80%;
         padding: 5%;
-        margin: auto;
+        margin: auto!important;
     }
     .research-card1,
     .research-card2{
         margin: 0!important;
         width: 80%;
-        margin: auto;
+        margin: auto!important;
     }
     .footer{
         min-height: 100vh;
