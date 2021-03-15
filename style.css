@@ -476,7 +476,21 @@ span{
     body{
         margin: 0;
     }
-
+    .landing-col-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner{
+        float: none;
+    }
+    .btn-blue{
+        margin-left: 0;
+    }
+    .stats img{
+        width: 120px;
+    }
     .event-card{
         width: 20rem!important;
     }
@@ -492,7 +506,7 @@ span{
         margin: auto;
     }
     .research img{
-        width: 100%;
+        width: 105%;
         padding: 5%;
         margin: auto!important;
     }
